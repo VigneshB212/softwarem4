@@ -1,0 +1,470 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.head{
+    padding: 16px 14px;
+}
+.companylogo{
+    height: 40px;
+    width: 39px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    background-color: hsl(0deg 0% 94%);
+}
+.nav{
+    color: grey;
+}
+.app{
+    border: 1px solid white;
+    background-color: white;
+    padding: 3px 4px 3px 5px;
+    font-size: x-large;
+    color: black;
+    border-top-right-radius: 2px;
+}
+.img{
+    max-width: 100%;
+    height: 652px;
+    background-image:url("soft2.jpeg");
+    background-size: cover;
+}
+.button{
+    background-color: hsl(25deg 76% 87%);
+    border-color: hsl(25deg 76% 87%);
+    padding: 10px 25px;
+    margin-top: 44px;
+}
+.mar{
+    padding-left: 57px;
+    padding-top: 145px;
+}
+.img2{
+    height:100%;
+    border-radius: 20px;
+    max-width: 150%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+.para1{
+    width: 36%;
+    padding-top: 28px;
+    line-height: 27px;
+}
+h2{
+    font-size: xx-large;
+    padding-top: 11px;
+}
+h6{
+    font-size: large;
+}
+h3{
+    font-size: xx-large;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.para2{
+    line-height: 22px;
+    width: 45%;
+    margin: 0 auto;
+}
+.img3{
+    max-width: 430px;
+    margin: auto;
+    padding: 4rem 0;
+    line-height: 1;
+    padding-left: 40px;
+}
+.wwd{
+    max-width: 150%;
+    z-index: 3;
+    position: relative;
+}
+.pp{
+    background-color: white;
+    margin-top: 28px;
+    line-height: 1.9;
+}
+.dollor{
+    font-family: 'Inter', sans-serif;
+    font-size: xxx-large;
+}
+.bbutton{
+    background-color: hsl(192deg 27% 89%);
+    border-color: hsl(192deg 27% 89%);
+    color: hsl(201deg 31% 42%);
+}
+.ADVANCED{
+    background-color: hsl(231deg 61% 53%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.red{
+    border: 1px solid;
+    color: red;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -115px;
+    right: -85px;
+    z-index: 4;
+    transform: rotate(51deg);
+    transition: inherit;
+}
+.per{
+    background-color: hsl(192deg 27% 89%);
+    
+    padding: 80px 0px 80px 0px;
+}
+.month{
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+}
+.mi{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+.pink{
+    color: white;
+    background-color: hsl(0deg 100% 76%);
+    font-size: 50px;
+    padding: 24px 32px 24px 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.img4{
+    height: 343px;
+    border-radius: 11px;
+}
+.every{
+    font-size: xxx-large;
+    width: 93%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.lor{
+    background-color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    color: black;
+    line-height: 56px;
+}
+.faq{
+  background-color: hsl(0deg 0% 94%);
+}
+.ut{
+    background-color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    color: black;
+    line-height: 56px;
+}
+.design{
+    border: 1px solid hsl(192deg 27% 89%);
+    height: 190px;
+    width: 256px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.bor{
+    font-size: xx-large;
+}
+.d{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+.ma{
+    text-align: center;
+}
+.mob{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.more{
+    color: black;
+}
+.js{
+    border-radius: 50%;
+    height:180px ;
+}
+.experts{
+    background-color: #efefef;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+}
+.our{
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.ims{
+    border: 1px solid;
+    background-color: white;
+    border-color: white;
+}
+.bag{
+    background-color: #efefef;
+    color: black;
+    padding: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 6px;
+}
+.bar{
+   background-color: black;
+}
+.choose{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.1rem;
+    line-height: 1.1;
+}
+.au{
+    color: #777777;
+}
+.elitdo{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color:grey;
+    padding-top: 25px;
+}
+.res{
+    font-weight: bold;
+}
+.age{
+    text-align: end;
+    font-weight: bold;
+}
+.bottoms{
+    padding-top: 30px;
+    padding-bottom: 4px;
+}
+.hei{
+    height: 10px;
+}
+.computer{
+    height: 270px;
+    margin-top: 50px;
+   min-width:100%;
+   border-radius:18px ;
+   object-fit: cover;
+}
+.group{
+    height: 270px;
+    margin-top: 50px;
+   min-width:220%;
+   border-radius:18px ;
+   object-fit: cover;
+}
+.black{
+    background-color: black;
+    padding-bottom: 70px;
+}
+.ourc{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.background{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 30px 0px grey;
+    border-radius: 30px;
+}
+.logo{
+    height: 200px;
+    padding: 20px 20px;
+}
+.back{
+    background-image:url(background4.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.color{
+    background-color: #dce8eb;
+}
+.sel{
+    margin: 70px 0px 90px 100px;
+    color: gray;
+    font-weight: bold;
+}
+.mail{
+    border: 1px solid white;
+    height: 40px;
+    width: 70%;
+    border-radius: 6px;
+    padding: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.now{
+    border: none;
+    padding: 3px;
+    color: white;
+    background-color: black;
+}
+.testi{
+    background-color: #efefef;
+    padding-bottom: 30px;
+}
+.tes{
+    font-weight: bold;
+    color: gray;
+    padding-top: 40px;
+}
+.feedback{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0px 20px 2px;
+}
+.quat{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.ulla{
+    line-height: 1.4;
+    max-width: 189px;
+    font-weight: bold;
+    font-style: italic;
+    color: gray;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+.pto{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+.po{
+    color: gray;
+}
+.cir{
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-bottom: -30px;
+}
+.outl {
+    font-size: 70px;
+}
+.end{
+    background-color: black;
+   
+}
+.mainl,.link,.hov,.us,.mobi{
+    color: white;
+}
+.mainl{
+    font-weight: bold;
+    padding-top: 52px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.links,.linkss{
+    line-height: 2;
+}
+.linkss{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 85px;
+}
+.ri{
+    width: 20px;
+}
+.us{
+    border: 1px solid #f7d9c4;
+    background-color: #f7d9c4;
+    color: black;
+    display: inline-block;
+    padding: 5px 40px 5px 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mobi{
+    line-height: 1.5;
+    max-width: 284px;
+}
+.link:hover{
+    color: blue;
+    transition: 1s;
+}
+.new{
+    max-width: 150%;
+    z-index: 3;
+    position: relative;
+}
+@media (max-width:992px) {
+    .new {
+        width: 100%;
+    }
+}
+.redd{
+    color: red;
+}
+.bluee{
+    color: blue;
+}
